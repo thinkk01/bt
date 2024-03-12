@@ -31,7 +31,7 @@ const addTwoNumbers = function(l1, l2) {
         result.push(memory);
     }
 
-    return result.reverse();
+    return result;
 };
 console.log(addTwoNumbers([9,9,9,9,9,9,9],[9,9,9,9]))
 //3
